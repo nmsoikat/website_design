@@ -1,0 +1,133 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  
+  /* ---------------------------
+  	home page 1
+  	---------------------------*/
+.mainmenu ul li a {
+    padding: 13px 13px;
+}
+.get-start-btn {
+    padding: 13px 20px;
+}
+.case-study-single-slider .case-study-content-hover h4 {
+    line-height:  1.0;
+    font-size: 22px;
+    padding: 0px 10px;
+}
+.case-study-single-slider .case-study-content-hover h3 {
+    margin-bottom: 7px;
+}
+.case-study-single-slider .case-study-content-hover p {
+    font-size: 13px;
+}
+.priceing-box {
+    padding: 10px 10px;
+}
+.section-title-box {
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+}
+
+.website-checker-form input[type=url]{
+    margin-bottom: 15px;
+}
+
+  /* ---------------------------
+  	home page 2
+  	---------------------------*/
+.item-box-table {
+    height: 168px;
+}
+.slider-content-wrapper h2 {
+    font-size: 42px;
+}
+.section-form input[type=text], input[type=url], input[type=tel], input[type=email], input[type=password] {
+    width: 280px;
+    height: 44px;
+}
+.single-box-text .home3-blog-bg {
+    height: 183px;
+}
+.footer-menu li a, .footer-social-icon li a {
+    padding: 10px 8px;
+}
+.homepage-4-hero-bg .section-form input[type=text], input[type=url], input[type=tel], input[type=email], input[type=password] {
+    width: 162px;
+	height: 44px;
+    margin-right: 2px;
+    margin-top: 24px;
+}
+.teller-gallery .gallery-img-2 {
+    height: 80%;
+}
+.cta-area.theme-4 h2 {
+    font-size: 28px;
+}
+.subscribe-form input[type="text"] {
+    margin-right: -4px;
+}
+.subscribe-form input[type='submit'] {
+    padding: 15px;
+}
+
+/*home page 3*/
+.section-form input[type='url'], .section-form input[type='text'], .section-form input[type='email'] {
+    width: 29%;
+}
+.cta-area.theme-3 {
+    height: 68%;
+}
+.footer-menu li a, .footer-social-icon li a {
+    padding: 10px 8px;
+}
+
+
+
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 991px) { 
+ 
+   
+    /*home 1*/
+    input[type=text], input[type=url], input[type=tel], input[type=email], input[type=password] {
+    width: 73%;
+    margin-bottom: 30px;
+}
+    .logo {
+        text-align:  center;
+    }
+    .mainmenu {
+        display:  none;
+    }
+    .col-md-3.text-right {
+        text-align: center;
+        margin-top: 30px;
+    }
+    .device-img {
+        margin-top: 30px;
+    }
+    .cta-area {
+        text-align:  center;
+    }
+
+    .col-md-4.text-right {
+        text-align:  center;
+    }
+
+ 
+}
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+}

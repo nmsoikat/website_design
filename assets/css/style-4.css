@@ -1,0 +1,227 @@
+.header-area {
+  position: absolute;
+    left: 0px;
+    top: 0px;
+  width: 100%;
+  z-index: 2;
+}
+.header-area {
+    background: transparent;
+}
+.section-form input {
+  width: 25%;
+  background-color: #073A4B;
+  border-color: #073A4B;
+}
+.section-form input[type="submit"],.section-form button[type="submit"] {
+  border: none;
+  border: 1px solid #06D7A0;
+  background-color: #06D7A0;
+  width:17%;
+}
+
+
+.service-text-area h2 {
+  font-size: 26px;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-weight: bold;
+  color: #373737;
+}
+.service-text-area p {
+}
+.service-text-area a.inline-block-btn i {
+	font-size: 15px;
+	color: #08D6A0;
+	margin-left: 10px;
+}
+a.inline-block-btn {
+  display: inline-block;
+  margin-top: 10px;
+	color: #08D6A0;
+	font-size: 19px;
+	display: inline-block;
+}
+.service-section {
+  position: relative;
+  z-index: 1;
+}
+
+.service-section:before {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  content: "";
+  background-color: #FDFDFD;
+  width: 50%;
+  height: 93%;
+  z-index: -1;
+  box-shadow: 0px 3px 5px #E0E0E0;
+}
+.single-service-item {
+  text-align: center;
+  margin-bottom: 35px;
+  min-height: 228px;
+}
+.single-service-item img {
+  min-width: 30%;
+}
+.service-section:after{
+	content: "";
+	position: absolute;
+	right: 0px;
+	top: -50px;
+	width: 50%;
+	height: 100%;
+	background-image: url(../img/service-men.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	border-radius: 3px;
+    box-shadow: 0px 3px 5px #E0E0E0;
+}
+
+.service-section.section-padding {
+	margin-top: 140px;
+  padding-top: 50px;
+  padding-bottom: 44px;
+}
+.cta-area{
+  background-image: url(../img/cta-img1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.cta-area.section-padding {
+  color: #fff;
+  text-align: center;
+}
+.cta-area h1 {
+  color: #fff;
+}
+.video-play-btn img {
+  display: inline-block;
+}
+a.video-play-btn {
+  display: inline-block;
+  width: 55px;
+  height: 54px;
+  background: #00D69D;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 57px;
+  padding-left: 5px;
+  margin-top: 18px;
+}
+.padding-top-40 {
+  padding-top: 40px;
+}
+.key-feature-text h2 {
+  font-size: 24px;
+}
+.key-feature-text {
+  margin-bottom: 40px;
+}
+.key-feature-item-box h3 {
+  font-size: 20px;
+}
+.key-feature-item-box {
+  position: relative;
+  padding-left: 65px;
+  margin-bottom: 45px;
+}
+.key-feature-item-box .img-icon {
+  position: absolute;
+  left: 0px;
+  top: 6px;
+  max-width: 50px;
+}
+.img-box-shadow {
+  height: 914px;
+}
+.cta-area.theme-4 {
+  color: #fff;
+}
+.cta-area.theme-4 h2 {
+  color: #fff;
+  font-size: 34px;
+}
+.cta-area.theme-4 p {
+  font-size: 15px;
+  margin: 23px 0px;
+}
+.theme-4 .get-start-btn {
+  background-color: #00D69D;
+}
+.footer-area {
+  background: #073A4B;
+  padding: 50px 0px;
+  color: #fff;
+}
+.footer-area a,.footer-area h2 {
+  color: #fff;
+}
+.footer-area h2 {
+  font-size: 20px;
+}
+.footer-area a {
+  font-size: 13px;
+}
+.subscribe-form input[type="submit"] {
+  background-color: #06D7A0;
+}
+input {
+}
+.subscribe-form input[type="text"] {
+  margin-right: -5px;
+}
+.footer {
+  background: #102E38;
+  color: #fff;
+}
+
+
+.testimonial-single-item-box.active .testimonial-single-text {
+  background: #00D69D;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  transition: .3s;
+}
+.testimonial-single-text {
+  padding: 15px;
+}
+.testimonial-single-text i.fa-quote-left {
+  font-size: 25px;
+  padding-bottom: 14px;
+}
+.testimonial-single-item-box.active .testimonial-single-text:after {
+  position: absolute;
+  content: "";
+  bottom: -49px;
+  left: -4px;
+  z-index: -2;
+  border-left: 19px solid transparent;
+  border-top: 31px solid #00D69D;
+  border-bottom: 22px solid transparent;
+  border-right: 3px solid transparent;
+  transform: rotate(8deg);
+  transition: .3s;
+}
+.member-section {
+  margin-top: 39px;
+  opacity: 0;
+  visibility: hidden;
+}
+.member-section p {
+  display: inline-block;
+  opacity: .5;
+  color: #333;
+  font-size: 16px;
+}
+.testimonial-single-item-box.active .member-section {
+  opacity: 1;
+  visibility: visible;
+  transition: .3s;
+}

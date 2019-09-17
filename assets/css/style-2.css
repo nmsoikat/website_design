@@ -1,0 +1,31 @@
+.hero-area{
+	background-image: url(../img/hobe-2-bg.jpg);
+    background-color: #2b9cf8;
+    color:  #fff;
+    background-position:  center;
+    background-size:  cover;
+}
+.hero-area h1 {
+    color:  #fff;
+    font-size: 42px;
+    margin-top: 129px;
+}
+.hero-area p {
+    line-height: 1.7;
+    margin-top: 25px;
+}
+.get-start-btn {
+    background-color: #06D6A0;
+}
+
+.hero-area {
+    padding: 80px 0px;
+}
+h3{
+    font-size:  22px;
+    margin-bottom: 32px;
+}
+h3+p{
+    margin-bottom: 30px;
+    line-height: 1.6;
+}

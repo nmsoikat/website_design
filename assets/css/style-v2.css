@@ -1,0 +1,258 @@
+.cta-area{
+	background: url(../img/v2-footer-banner-img.jpg);
+	position: relative;
+	z-index: 1;
+}
+.cta-area,.what-we-dow-foryou{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+.owl-dots div.active {
+    background-color: #06D6A0;
+}
+.cta-area h2,.what-we-dow-foryou h2{
+	color: #fff;
+}
+.priceing-box:hover,.priceing-box:hover a.btn-readmore {
+	border-color: #06D6A0;
+}
+
+.priceing-box:hover a.btn-readmore {
+	color: #06D6A0;
+}
+.priceing-box h2 {
+  font-size: 20px;
+}
+.priceing-box h4 {
+  color: #DCDCDC;
+  font-size: 70px;
+}
+.priceing-box {
+  margin-bottom: 30px;
+}
+.footer-area {
+  padding-top: 100px;
+	background: #FDFDFD;
+}
+
+.subscribe-form ul li:hover a {
+    color: #06D6A0;
+}
+.footer{
+	background: #F7F7F7;
+}
+.subscribe-form input[type='submit'] {
+    background-color: #06D6A0;
+}
+
+.service-single-box:hover h3, .service-single-box:hover .service-icon i, .service-single-box:hover a, .service-single-box:hover a i {
+    color: #06D6A0;
+}
+
+.service-single-box:hover {
+    border-color: #06D6A0;
+}
+.case-study-single-slider:hover .case-study-content-hover {
+	width: 100%;
+}
+.case-study-content-hover {
+	background-color: #06D6A0;
+}
+
+.section-title-box h4 {
+  font-size: 20px;
+  color: #333;
+}
+.priceing-box:hover .section-title-box {
+	border-bottom-color: #06D6A0;
+}
+.section-title-box p.taka {
+	color: #06D6A0;
+}
+.case-study-content-sell a {
+	background-color: transparent;
+}
+
+.case-study-single-slider {
+  margin: 15px 0px;
+}
+
+.case-study-single-box {
+  margin: 15px;
+}
+
+.case-study-meta  h4 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #444;
+}
+.blog-bg-1{
+	background-image: url(../img/blog-1.jpg);
+}
+
+.blog-single-item .blog-img {
+  height: 250px;
+  border-radius: 3px;
+  margin-bottom: 40px;
+  background-size: cover;
+  background-position: center;
+}
+.blog-single-item {
+  border-radius: 3px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+}
+.blog-text-simple {
+  padding: 25px;
+}
+.blog-text-simple h2 {
+  font-weight: bold;
+  line-height: ;
+  font-size: 25px;
+  margin-bottom: ;
+  line-height: 1.3;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sear-btn-section a {
+  width: ;
+  padding: 10px 15px;
+  background: #275AA9;
+  font-size: 16px;
+  display: inline-block;
+  color: #fff;
+  border-radius: 40px;
+  margin-right: 15px;
+}
+.sear-btn-section a i {
+  color: #fff;
+  padding-right: 12px;
+}
+.sear-btn-section {
+  border-bottom: 1px solid #F4F4F4;
+  border-top: 1px solid #F4F4F4;
+  padding: 30px 0px;
+  margin-bottom: 15px;
+}
+.sear-btn-section .twitter {
+  background: #29C8F0;
+}
+.sear-btn-section .pinterest {
+  background-color: #D6061E;
+}
+.section-form h2 {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+
+.section-form form {
+  width: 100%;
+}
+.section-form input {
+  margin-bottom: 20px;
+  width: 47%;
+}
+.section-form p textarea {
+  width: 100%;
+  border:none;
+  border:1px solid #EFEFEF;
+}
+.section-form form input[type="text"]:last-child {
+  margin-right: 0px;
+}
+
+button.get-start-btn {
+  border:none;
+}
+
+.author-area img {
+  border-radius: 50%;
+  width: 100%;
+  height: 161px;
+}
+
+.about-ection-detail {
+  margin-top: 80px;
+}
+
+
+.time-member-item h4 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 7px;
+}
+.time-member-item h4 span {
+  display: block;
+  font-size: 12px;
+  color: #ddd;
+}
+.time-member-item {
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.2);
+  padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+.faq-area a:focus {
+  text-decoration: none;
+}
+.faq-area .panel-default > .panel-heading {
+  background: none;
+}
+.faq-area .panel-body {
+  border-top: ;
+  border-top: 0px soli transparent;
+}
+.faq-area .panel-group .panel-heading + .panel-collapse > .list-group, .panel-group .panel-heading + .panel-collapse > .panel-body {
+  border-top: 0px;
+}
+.faq-area .panel-group .panel + .panel {
+  margin-top: -1px;
+}
+.faq-area .panel {
+  box-shadow: 0px 0px 0px;
+}
+.panel-heading {
+  padding: 0px;
+}
+.faq-area .panel-heading a {
+  display: block;
+  padding: 15px;
+  position: relative;
+}
+.faq-area .panel-heading a:after {
+  content: "+";
+  float: right;
+  font-size: 21px;
+  margin-top: -5px;
+  transition: .3s;
+}
+.faq-area .panel-heading a[aria-expanded="true"]::after {
+  content: "-";
+  font-size: 32px;
+  margin-top: -11px;
+  transition: .3s;
+}
